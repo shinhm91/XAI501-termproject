@@ -10,7 +10,6 @@ from sklearn.covariance import EllipticEnvelope
 #from sklearn.pipeline import Pipeline
 from sklearn.metrics import roc_auc_score,make_scorer
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
-import umap # pip install umap-learn
 
 # -------------------------------------
 # Load preprocessed data
