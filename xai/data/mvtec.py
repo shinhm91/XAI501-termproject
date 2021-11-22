@@ -1,9 +1,10 @@
 import os
 import pickle
+from glob import glob
+
+import numpy as np
 import pandas as pd
 from easydict import EasyDict as edict
-from glob import glob
-import numpy as np
 from PIL import Image
 
 
